@@ -33,7 +33,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-import javax.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import io.openim.android.ouiconversation.adapter.MessageAdapter;
 import io.openim.android.ouicore.base.BaseApp;

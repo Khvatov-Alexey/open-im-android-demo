@@ -1,7 +1,5 @@
 package io.openim.android.demo.repository;
 
-;
-
 import io.openim.android.ouicore.net.RXRetrofit.Exception.RXRetrofitException;
 import io.openim.android.ouicore.net.bage.Base;
 import io.openim.android.ouicore.net.bage.GsonHel;

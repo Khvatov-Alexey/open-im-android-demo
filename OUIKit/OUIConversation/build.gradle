@@ -5,6 +5,7 @@ if (isModule) {
 }
 
 android {
+    namespace 'io.openim.android.ouiconversation'
     viewBinding {
         enabled = true
     }
@@ -44,8 +45,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
     }
 }
 
@@ -63,6 +64,7 @@ dependencies {
     implementation 'com.airbnb.android:lottie:5.0.3'
     implementation 'cjt.library.wheel:camera:1.1.9'
     implementation 'cn.jzvd:jiaozivideoplayer:7.7.0'
+    implementation "io.realm:realm-android-library:10.11.1"
 
 
     implementation 'com.alibaba:arouter-api:1.5.2'

@@ -6,6 +6,7 @@ if (isModule) {
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'io.openim.android.ouicalling'
     viewBinding {
         enabled = true
     }
@@ -49,11 +50,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+        jvmTarget = JavaVersion.VERSION_21.toString()
     }
 }
 
@@ -67,6 +68,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
     implementation "androidx.activity:activity-ktx:1.4.0"
+    implementation "io.realm:realm-android-library:10.11.1"
 
     implementation project(':OUICore')
     implementation 'com.alibaba:arouter-api:1.5.2'

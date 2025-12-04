@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="io.openim.android.demo">
+    xmlns:tools="http://schemas.android.com/tools">
     <!--hardwareAccelerated=false livekit 会出问题 -->
     <application
         android:name=".DemoApplication"
